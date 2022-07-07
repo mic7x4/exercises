@@ -5,7 +5,6 @@ import Icon from '../assets/icons/gym.png'
 import { borderTop } from '@mui/system'
 
 const BodyPart = ({item, setBodyPart, bodyPart}) => {
-    console.log(bodyPart)
   return (
     <Stack
         type="button"
