@@ -7,7 +7,7 @@ import EquipmentImage from '../assets/icons/equipment.png'
 import { TransgenderOutlined } from '@mui/icons-material'
 
 const Detail = ({exerciseDetail}) => {
-  console.log(exerciseDetail)
+  // console.log(exerciseDetail)
 
   const { bodyPart , gifUrl, name , target, equipment} =  exerciseDetail || '';
 
